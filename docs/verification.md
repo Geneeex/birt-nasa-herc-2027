@@ -6,6 +6,8 @@ Software version: **5.0.0**. Source package: **HERC_2027_Pi5_Task_Code_Rev5.zip*
 
 All **33** source/configuration listings were compared with the latest report and match exactly. [report-source-manifest.json](report-source-manifest.json) records the SHA-256 digest of each corresponding file. Repository documentation, the host dependency specification and the test workflow are additions to that baseline.
 
+The repository uses LF line endings. The manifest hashes apply to those repository bytes; original Windows CRLF line endings are normalized without changing source text or behavior.
+
 ## Host regression tests
 
 The existing release record reports **93 passing tests, no failures and no skips**. The suite covers packet parsing, invalid and out-of-range commands, receiver arming, stale inputs, Pi output state, substituted GPIO/I2C, camera metadata, calibrated geometry, image filtering, evidence storage, duplicate attempts and local viewing.

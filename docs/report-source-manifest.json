@@ -4,7 +4,7 @@
   "files": [
     {
       "path": "config.example.json",
-      "sha256": "b4cdd7ec88f5c92831a4975faa92a5f07b5a548e64729581576f23e91727c698"
+      "sha256": "3a7093021b8a0f8801d675c05110ce989e6eed78c793490e6431b69e66761e00"
     },
     {
       "path": "pyproject.toml",
@@ -12,7 +12,7 @@
     },
     {
       "path": "herc/__init__.py",
-      "sha256": "4d3a369cd1213563d52dea99d3b77b42171b9c87d437564c4cc9daab6b49acd5"
+      "sha256": "100929bc919e3a349ef80b0489f499ac8995036f6c3079bd7bd0499084bca1e7"
     },
     {
       "path": "herc/camera.py",
@@ -20,11 +20,11 @@
     },
     {
       "path": "herc/commissioning.py",
-      "sha256": "01e5160782bff297c6ad2587073c5efee2497116a7dfafb24d6da493cfd3cfba"
+      "sha256": "6e54cc9fd89a65671ccc54e3dcc3346555d5307b67394be6d05bdcb5efcb11d5"
     },
     {
       "path": "herc/controller.py",
-      "sha256": "f3a1a55212b3298e1967f6cf80ba29835819286bcbf0ff3ecf48743e0578b115"
+      "sha256": "12c6da48d0e482ff64320fae0ac7a899563ce7d9b370d0a7bc1b384fdd21bc31"
     },
     {
       "path": "herc/evidence.py",
@@ -36,7 +36,7 @@
     },
     {
       "path": "herc/pan.py",
-      "sha256": "d242f01251ce8ad4c8c143d749257edb3e94c3c953f656a6fa283e8571b4f79f"
+      "sha256": "87321639185ed30e9cfe914a8abd9f28d45693e137b6affa09c92ad0650c9e76"
     },
     {
       "path": "herc/protocol.py",
@@ -64,7 +64,7 @@
     },
     {
       "path": "tools/bench.py",
-      "sha256": "1e6d48b8bd80ca888db387d705dc13a743afa00b74bde63e34d085235c858fb3"
+      "sha256": "edba9c1fa74ac14a81af486e0efc1c3405e4519b4b1181768bca7443fb4358f9"
     },
     {
       "path": "tools/calibrate_camera.py",
@@ -72,7 +72,7 @@
     },
     {
       "path": "tools/calibrate_pan.py",
-      "sha256": "a3caa217cc9d694350527143488323632216a99a6cd62068c03eb0d2eae0b432"
+      "sha256": "20afdae5881dfac440fb0ed4e6bcac9788125edc7e55fde783088d05380e99df"
     },
     {
       "path": "tools/check_hardware.py",
@@ -112,11 +112,11 @@
     },
     {
       "path": "tests/test_bench.py",
-      "sha256": "303228525d07903678be633ebb6725eba07e666f8f329d8cabd0e6c0838ecf02"
+      "sha256": "81b2d7aebd1d77bfa76657608616d9ab591943b84463a43385c176f8d7cc3e65"
     },
     {
       "path": "tests/test_controller.py",
-      "sha256": "8441d1b4bd5199aabae144dd144d9076da60174886500ab7afb5852c2b549907"
+      "sha256": "c50d7eb5e99ee63d476f821ab3f3ad1c426c0749d7ce200a62e2a2ef3a9390a5"
     },
     {
       "path": "tests/test_pi5.py",
@@ -128,11 +128,12 @@
     },
     {
       "path": "tests/test_runtime.py",
-      "sha256": "398a34cf7f45622334a649bbcb7ac367dc8c6568f90a24feb8cad3291aa38bb0"
+      "sha256": "86eaa9a5ed6dce76f840ba2dcf912bd913ae2fc5975a6ddd7632f916817b8fe3"
     },
     {
       "path": "tests/test_vision.py",
       "sha256": "0b57eecc5184eec7d5c1e74b641cfbf1c29972e3f593d27782f785fb9ea48b5e"
     }
-  ]
+  ],
+  "line_endings": "LF"
 }
