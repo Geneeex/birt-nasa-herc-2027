@@ -1,0 +1,4 @@
+# Development computer and CI only. On the rover, use Raspberry Pi OS packages.
+numpy>=1.26,<3
+opencv-python-headless>=4.8,<6
+Pillow>=10,<14

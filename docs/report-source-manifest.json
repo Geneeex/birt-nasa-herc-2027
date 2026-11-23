@@ -1,0 +1,138 @@
+{
+  "report": "HERC_2027_RC_Autonomous_Task_DR_Submission_Rev6.docx",
+  "software_version": "5.0.0",
+  "files": [
+    {
+      "path": "config.example.json",
+      "sha256": "b4cdd7ec88f5c92831a4975faa92a5f07b5a548e64729581576f23e91727c698"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "a60a8fe7ac4c44aab3f107908fe83cb7c4105d6313d95c0c682305b1dfbf3131"
+    },
+    {
+      "path": "herc/__init__.py",
+      "sha256": "4d3a369cd1213563d52dea99d3b77b42171b9c87d437564c4cc9daab6b49acd5"
+    },
+    {
+      "path": "herc/camera.py",
+      "sha256": "d5cc4ef62cb0d0ed0e326f243ed53c1b9601ceeda481b00b230b3410e5990347"
+    },
+    {
+      "path": "herc/commissioning.py",
+      "sha256": "01e5160782bff297c6ad2587073c5efee2497116a7dfafb24d6da493cfd3cfba"
+    },
+    {
+      "path": "herc/controller.py",
+      "sha256": "f3a1a55212b3298e1967f6cf80ba29835819286bcbf0ff3ecf48743e0578b115"
+    },
+    {
+      "path": "herc/evidence.py",
+      "sha256": "99cb41f5fe9310bc192f62195a1d65889159509e3575667524e10860b6c120f4"
+    },
+    {
+      "path": "herc/hardware.py",
+      "sha256": "e96c83f21a38d16bd3d64be65252a7b639704b7728af6884460ac83848420857"
+    },
+    {
+      "path": "herc/pan.py",
+      "sha256": "d242f01251ce8ad4c8c143d749257edb3e94c3c953f656a6fa283e8571b4f79f"
+    },
+    {
+      "path": "herc/protocol.py",
+      "sha256": "da436c5754aebf52c7c4ba20233b117cc6d177fad051e33ac98a4c08ce9b61c5"
+    },
+    {
+      "path": "herc/rc_input.py",
+      "sha256": "1afaf925514b84fefb959e41f54ec872151b9861da4bf8777b7dba2c69d4b909"
+    },
+    {
+      "path": "herc/review.py",
+      "sha256": "fdd0824c0a65bf525854500f44104470b5668eeb8bcaf80330b1accc5d3bf8f8"
+    },
+    {
+      "path": "herc/supervision.py",
+      "sha256": "d5309024edfb7f5136f7b9ce61bda33177b13ee94139b49ee489b7cf5678d330"
+    },
+    {
+      "path": "herc/vision.py",
+      "sha256": "30fc9d1e20771916d17d8fea5fa25805612b58d368b0fa5a98a4c610abe054f1"
+    },
+    {
+      "path": "tools/__init__.py",
+      "sha256": "da4b63dc482f4c6987697961e4b55626ce96879ffdb20c1bc3dd76cf10a79948"
+    },
+    {
+      "path": "tools/bench.py",
+      "sha256": "1e6d48b8bd80ca888db387d705dc13a743afa00b74bde63e34d085235c858fb3"
+    },
+    {
+      "path": "tools/calibrate_camera.py",
+      "sha256": "1263b7ade941140c1a82bcb203db71058fdf71ded98c4a6b8699d4ab0d9c2ac5"
+    },
+    {
+      "path": "tools/calibrate_pan.py",
+      "sha256": "a3caa217cc9d694350527143488323632216a99a6cd62068c03eb0d2eae0b432"
+    },
+    {
+      "path": "tools/check_hardware.py",
+      "sha256": "0a69a3cc901b10fe7d445daafc6e8310fdbc05292f5e33c7c653b4f9334d0541"
+    },
+    {
+      "path": "tools/commission.py",
+      "sha256": "d807bc06d51d48a40903f7cffc6924f45e1d5bd0688db9f570ad46322b6061b2"
+    },
+    {
+      "path": "tools/receive.py",
+      "sha256": "e61d5a880f6a10842414a1decc190266e0f03aa80a23cc16ef3a0c7a93093558"
+    },
+    {
+      "path": "tools/services.py",
+      "sha256": "82e5b087b7d26e2333193fca896ae8851f43f7c10b002a8a361ed2fa130eff35"
+    },
+    {
+      "path": "tools/simulate.py",
+      "sha256": "295bc87461c766aebadaa6c6940da24a987293d85bb54b42409d1d5df0bcfb13"
+    },
+    {
+      "path": "tools/wav_to_pcm.py",
+      "sha256": "f2fc9b8dc178a53869731c21953921cb7365b49e5b5a138ce7c4567d34fb4cae"
+    },
+    {
+      "path": "deploy/direwolf.conf",
+      "sha256": "cbcc6ecc472ed093f25bbd0eaa16d3cf18b322fcb4976cd4661b2ebddc5f8ed8"
+    },
+    {
+      "path": "acceptance.template.json",
+      "sha256": "53caf5ecbb524939405441f423501818819dcd346268d35311a2bc5e74f84a96"
+    },
+    {
+      "path": "calibration/pan.template.json",
+      "sha256": "79fd2374ebdbc0838eb3bf9e45ca5adaa5ced94ec205a1ae4cecb706a9f2ebbc"
+    },
+    {
+      "path": "tests/test_bench.py",
+      "sha256": "303228525d07903678be633ebb6725eba07e666f8f329d8cabd0e6c0838ecf02"
+    },
+    {
+      "path": "tests/test_controller.py",
+      "sha256": "8441d1b4bd5199aabae144dd144d9076da60174886500ab7afb5852c2b549907"
+    },
+    {
+      "path": "tests/test_pi5.py",
+      "sha256": "fd3b58d95ff91dcf39b6752b793aa5b32709253f2e2349a42c91249edd584eab"
+    },
+    {
+      "path": "tests/test_protocol.py",
+      "sha256": "6fabce547784cffd58fed34c2c162b1b912f1654674f077fbf36db1092d418bf"
+    },
+    {
+      "path": "tests/test_runtime.py",
+      "sha256": "398a34cf7f45622334a649bbcb7ac367dc8c6568f90a24feb8cad3291aa38bb0"
+    },
+    {
+      "path": "tests/test_vision.py",
+      "sha256": "0b57eecc5184eec7d5c1e74b641cfbf1c29972e3f593d27782f785fb9ea48b5e"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "schema": 2,
+  "excursion_id": "SET_IN_PIT",
+  "clock_check_utc": "",
+  "nasa": {
+    "frequency_hz": null,
+    "source_callsign": null,
+    "source_ssids": [],
+    "confirmation_reference": "",
+    "remote_arm_confirmed": false,
+    "whole_packet_sequence_confirmed": false,
+    "digital_filter_confirmed": false,
+    "range_reference_confirmed": false
+  },
+  "kiss_port": 8001,
+  "sdr_gain_db": 30,
+  "sdr_ppm": 0,
+  "execution_limit_seconds": 180,
+  "results_directory": "runs",
+  "pan_calibration": "calibration/pan.json",
+  "camera_calibration": "calibration/camera.json",
+  "commissioning": "commissioning.json",
+  "camera": {
+    "width": 4608,
+    "height": 2592,
+    "lens_position": 0.0,
+    "scaler_crop": null,
+    "format": "RGB888"
+  },
+  "range_settings": {
+    "allow_frontal_shape_fallback": false,
+    "max_reprojection_px": 2.0,
+    "max_relative_spread": 0.05,
+    "max_spread_ft": 1.0,
+    "min_distance_ft": 3.0,
+    "max_distance_ft": 85.0
+  },
+  "hardware": {
+    "i2c_bus": 1,
+    "pca_address": 64,
+    "pan_channel": 0,
+    "oe_gpio": 17,
+    "rc_gpio": 24,
+    "bench_gpio": 22,
+    "reference_clock_hz": 25000000,
+    "pwm_hz": 50,
+    "progress_timeout_seconds": 15.0
+  }
+}

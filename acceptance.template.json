@@ -1,0 +1,14 @@
+{
+  "operators": ["", ""],
+  "tests": {
+    "power_load": {"passed": false, "record": ""},
+    "pan_repeatability": {"passed": false, "record": ""},
+    "camera_range": {"passed": false, "record": ""},
+    "radio_reception": {"passed": false, "record": ""},
+    "remote_arm": {"passed": false, "record": ""},
+    "fault_response": {"passed": false, "record": ""},
+    "clock_offline": {"passed": false, "record": ""},
+    "results_display": {"passed": false, "record": ""},
+    "dress_rehearsal": {"passed": false, "record": ""}
+  }
+}

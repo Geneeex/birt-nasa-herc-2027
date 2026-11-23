@@ -1,0 +1,39 @@
+# Python and development environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+build/
+dist/
+
+# Machine-specific settings and qualification records
+/config.json
+/acceptance.json
+/commissioning.json
+/calibration/*
+!/calibration/pan.template.json
+/deploy/generated/
+
+# Captured evidence and generated simulation output
+/runs/
+/bench_runs/
+/demo_runs/
+/simulation_runs/
+*.log
+*.wav
+
+# Credentials and editor/OS files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
